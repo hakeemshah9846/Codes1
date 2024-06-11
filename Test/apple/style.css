@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+.nav-text {
+    margin: 15px 50px 15px 50px;
+}
+
+.hidden-section {
+    height: 0px;
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+    overflow: hidden;
+    opacity: 0;
+    transition: height 0.3s ease, opacity 0.3s ease;
+}
+
+.store-list {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    margin: 20px;
+}
+
+.store-list li {
+    font-size: 24px;
+    margin: 5px 0px 5px 0px;
+}
+
+.nav-text-store:hover ~ .hidden-store-section {
+    height: 250px;
+    opacity: 1;
+    transition-delay: 0.2s;
+}
+
+.nav-text-mac:hover ~ .hidden-mac-section {
+    height: 500px;
+    opacity: 1;
+    transition-delay: 0.2s;
+}
+
+.container1 {
+    font-size: 0;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    float: left;
+}
+
+.container2 {
+    font-size: 0;
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    border: 2px solid red;
+    float: left;
+}
