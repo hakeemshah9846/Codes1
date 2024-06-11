@@ -21,7 +21,11 @@ nav {
     background-color: black;
     overflow: hidden;
     opacity: 0;
-    transition: height 0.3s ease, opacity 0.3s ease;
+    transition: height 0.3s ease;
+    z-index: 1;
+    position: fixed;
+    width: 100vw;
+    left: 0px;
 }
 
 .store-list {
@@ -48,19 +52,19 @@ nav {
     transition-delay: 0.2s;
 }
 
-.container1 {
+/* .container1 {
     font-size: 0;
     width: 100px;
     height: 100px;
     background-color: red;
     float: left;
-}
+} */
 
-.container2 {
+/* .container2 {
     font-size: 0;
     width: 100px;
     height: 100px;
     background-color: blueviolet;
     border: 2px solid red;
     float: left;
-}
+} */
